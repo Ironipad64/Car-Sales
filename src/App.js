@@ -43,4 +43,15 @@ const App = () => {
   );
 };
 
+// const mapStateToProps = (state) => {
+//   return ({
+//     additionalPrice: state.additionalPrice,
+//     car: state.car,
+//     additionalFeatures: state.additionalFeatures
+//   })
+// }
+
+
 export default App;
+
+// export default connect(mapStateToProps, {addFeature})(App);
